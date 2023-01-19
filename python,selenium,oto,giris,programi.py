@@ -8,21 +8,21 @@ browserr.get("https://www.instagram.com/?hl=tr")
 
 time.sleep(5)
 
-name = browserr.find_element(By.NAME,("username"))
-name.click()
+Veyselyurtoglu = browserr.find_element(By.NAME,("Yurtoğlu"))
+Veyselyurtoglu.click()
 
-name.send_keys("username")
-
-time.sleep(2)
-
-name2 = browserr.find_element(By.NAME,("password"))
-name2.click()
-name2.send_keys("password")
+name.send_keys("Yurtoğlu")
 
 time.sleep(2)
 
-name3 = browserr.find_element(By.XPATH,("/html/body/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button/div"))
-name3.click()
+Veyselyurtoglu = browserr.find_element(By.VEYSELYURTOGLU,("password"))
+Veyselyurtoglu.click()
+Veyselyurtoglu.send_keys("password")
+
+time.sleep(2)
+
+veyselyurtoglu= browserr.find_element(By.XPATH,("/html/body/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button/div"))
+Veyselyurtoglu.click()
 
 
     
